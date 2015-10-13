@@ -12,6 +12,7 @@ definition  | text      | not null
 column name     | data type | details
 ----------------|-----------|-----------------------
 id              | integer   | not null, primary key
+user_name       | string    | not null
 email           | string    | not null, unique
 password_digest | string    | not null
 session_token   | string    | not null, unique
