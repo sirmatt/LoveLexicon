@@ -15,9 +15,10 @@ and React.js. Discover expert definitions about relationship woes! LoveLexicon a
 - [ ] Generate a feed of trending word definitions
 
 ## Design Docs
-* [View Wireframes](see wireframes in doc)
+* [View Wireframes][view]
 * [DB schema][schema]
 
+[view]: ./docs/views.md
 [schema]: ./docs/schema.md
 
 ## Implementation Timeline
