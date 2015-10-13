@@ -11,6 +11,6 @@
 
 ## Component Heirarchy
 
-[sign-up]: ./wireframes/sign-up.png
-[landing-page]: ./wireframes/landing-page.png
-[word-form]: ./wireframes/new-word-form.png
+[sign-up]: ./wireframe/sign-up.png
+[landing-page]: ./wireframe/landing-page.png
+[word-form]: ./wireframe/new-word-form.png
