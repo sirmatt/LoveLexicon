@@ -5,3 +5,7 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+matt = User.create!(username: "matt", password: "password")
+
+word1 = Definition.create(author_id: 1, word: "apple-bottom", word_def: "Jeans, boots with the fur")

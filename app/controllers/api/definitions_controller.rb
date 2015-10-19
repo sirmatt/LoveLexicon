@@ -8,6 +8,7 @@ class Api::DefinitionsController < ApplicationController
   end
 
   def create
+
     definition = Definition.new(definition_params)
     definition.author_id = current_user.id
     definition.save!
@@ -33,6 +34,6 @@ class Api::DefinitionsController < ApplicationController
   private
 
   def definition_params
-    params.require(:post).permit(:word, :word_def)
+    params.require(:definition).permit(:word, :word_def)
   end
 end
