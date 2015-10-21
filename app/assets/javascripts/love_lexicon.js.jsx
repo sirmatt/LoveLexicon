@@ -20,6 +20,7 @@ var routes = (
   </Route>
 
 );
+
 $(function(){
   var root = document.getElementById('lexicon');
   var navContainer = document.getElementById('navContainer');
